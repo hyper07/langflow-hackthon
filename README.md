@@ -6,7 +6,7 @@ This project provides an intelligent data analysis assistant that can process da
 
 ## Features
 
-- **Smart Data Processing**: Upload CSV, Excel, JSON, or PDF files for analysis
+- **Smart Data Processing**: Upload CSV, Excel files for analysis
 - **Natural Language Queries**: Ask questions about your data in plain English
 - **AI-Powered Insights**: Get intelligent analysis and recommendations
 - **Interactive Web Interface**: User-friendly Streamlit interface
@@ -28,8 +28,7 @@ pip install -r requirements.txt
 3. Set up environment variables:
 Create a `.env` file or configure Streamlit secrets with:
 - `OPENAI_API_KEY`: Your OpenAI API key
-- `ASTRA_DB_APPLICATION_TOKEN`: Your AstraDB token
-- `ASTRA_DB_API_ENDPOINT`: Your AstraDB endpoint
+- `TAVILY_API_KEY`: Your TAVILY API Key
 
 4. Run the application:
 ```sh
@@ -39,7 +38,7 @@ streamlit run app.py
 ## Usage
 
 1. Open the web interface (typically at http://localhost:8501)
-2. Upload your dataset (CSV, Excel, JSON, or PDF)
+2. Upload your dataset (CSV, Excel)
 3. Enter your analysis query describing what insights you want
 4. Click Submit to get AI-powered analysis results
 
